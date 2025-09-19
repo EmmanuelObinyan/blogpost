@@ -95,7 +95,7 @@ if(!isValid){
         <button onClick={hideDisplay}>okay</button>
       </figure>
        <div className="contact-text">
-        <h4>contact us</h4>
+        <h4>contact us tmao</h4>
         <h2>Lets Start A Conversation</h2>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
        dolore magna aliqua. Ut enim ad minim.</p>
