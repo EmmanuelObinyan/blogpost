@@ -1,0 +1,14 @@
+.author-container h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 550;
+}
+.author-container{
+    padding: 0.5rem;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 0;
+    justify-self: center;
+}

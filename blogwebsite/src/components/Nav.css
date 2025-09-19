@@ -1,0 +1,33 @@
+.nav-container{
+    background-color: #232536;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-container p{
+  text-transform: capitalize;
+}
+.nav-right p{
+  font-weight: 700;
+}
+.nav-link{
+    text-decoration: none;
+    color: #ededed;
+    padding: 0 1rem ;
+}
+.nav-right{
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-left p{
+  font-weight: 700;
+  align-items: center;
+}

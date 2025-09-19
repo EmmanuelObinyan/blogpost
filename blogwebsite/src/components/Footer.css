@@ -1,0 +1,93 @@
+.footer-container{
+    height: auto;
+    width: 100%;
+    background-color: #232536;
+}
+.nav-padding{
+    padding: 1.5rem;
+    position: static;
+}
+.nav-padding p{
+    font-size: 1.4rem;
+}
+.footer-background{
+    width: 25%;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 1.3rem 1rem;
+    margin: auto;
+    height: 2rem;
+    background-color: #FFD050;
+}
+.footer-wrapper{
+    padding: 2.2rem 1.2rem;
+    display: flex;
+    width: 80%;
+    background-color: #31323b;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    height: 13rem;
+    align-items: center;
+    justify-self: center;
+}
+.footer-child-subs h2{
+    width: 75%;
+    color: white;
+    line-height: 3rem;
+    margin-top: 3%;
+    font-size: 2rem;
+}
+.footer-child-email{
+   width: 55%;
+   display: flex;
+}
+.footer-child-email input{
+    width: 58%;
+    background-color: transparent;
+    border:1px solid rgb(173, 168, 168);
+}
+.footer-child-email input::placeholder{
+    padding-left: 0.7rem;
+    color: rgb(142, 137, 137);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.footer-child-email input:focus{
+    color: white;
+}
+.footer-details{
+    display: flex;
+    width: 80%;
+    justify-self: center;
+    height: auto;
+    justify-content: space-between;
+}
+aside p{
+    padding: 0.3rem;
+    font-size: 0.9rem;
+    color: #c5c1c1;
+    font-weight: 350;
+}
+.footer-details button{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+.footer-details button a i{
+   font-size: 1.2rem;
+   color: #c8c5c5;
+}
+/* for the message */
+.red{
+    color: red;
+    text-transform: capitalize;
+}
+.green{
+    color: green;
+    text-transform: capitalize;
+}

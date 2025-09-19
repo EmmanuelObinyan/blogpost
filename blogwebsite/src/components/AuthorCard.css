@@ -1,0 +1,45 @@
+.author-img{
+    height: 6rem;
+    margin: auto;
+    display: block;
+    width: 50%;
+    border-radius: 6rem;
+    object-fit: cover;
+}
+.author-card-container{
+    height: auto;
+    border: none;
+    cursor: pointer;
+    width: 18%;
+    padding: 0.5rem;
+}
+.author-card-container h3{
+    text-align: center;
+    padding: 0.3rem;
+}
+.author-card-container p{
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+.author-card-container a i {
+    width: auto;
+    font-size: 1rem;
+    color: rgb(59, 56, 56);
+}
+.author-card-container button{
+    margin: auto;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    margin-top: 2%;
+    width: 60%;
+    justify-content: space-around;
+}
+.first-author-background{
+    background-color: #F4F4F4;
+}
+.second-author-background{
+    background-color: #FBF6EA;
+}

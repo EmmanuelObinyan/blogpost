@@ -1,0 +1,25 @@
+.team-container{
+    width: 20%;
+    margin: 5% auto;
+    padding: 0.4rem;
+}
+.team-container h2{
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+.team-container p{
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    margin-bottom: 7%;
+    text-align: center;
+}
+.team-background{
+    background-color: #FFD050;
+    width: 45%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    height: 2.4rem;
+    border: none;
+}

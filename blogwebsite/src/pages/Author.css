@@ -1,0 +1,196 @@
+.prof-container{
+    display: flex;
+    justify-self: center;
+    width: 50%;
+    margin-bottom: 2%;
+}
+.position{
+    margin-left: 0;
+    margin-bottom:-3.2%;
+    width: 50%;
+}
+.prof-wrapper{
+    width: 100%;
+}
+.prof-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.prof-text-wrapper h2{
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+.prof-text-wrapper p{
+  font-size: 0.9rem;
+  font-weight: 200;
+  padding: 0.3rem;
+}
+.prof-text-wrapper button{
+    width: 25%;
+    background-color: transparent;
+    border: none;
+   margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem;
+}
+.prof-text-wrapper button i{
+    font-size: 1rem;
+    color: rgb(49, 47, 47);
+}
+.author-profile-container{
+    padding: 3rem;
+    background-color: #F4F0F8;
+}
+.author-section{
+    width: 80%;
+    padding: 2rem;
+    margin: auto;
+}
+.post-image img{
+  width:27rem;
+}
+.post-image{
+    margin-bottom: 5%;
+}
+/* for the contact page */
+.contact-text{
+    text-align:center;
+    width: 50%;
+    margin: auto;
+}
+.contact-text h4{
+    padding: 0.8rem;
+    text-transform: capitalize;
+}
+.contact-text h2{
+    font-size: 2rem;
+    padding: 1.4rem;
+    font-size: 2.2rem;
+}
+.contact-text p{
+    font-size: 0.9rem;
+    padding: 1rem;
+    font-weight: 200;
+    color: grey;
+}
+.contact-wrapper{
+    display: flex;
+    width: 50%;
+    padding: 1.6rem;
+    color: white;
+    margin: 2% auto;
+    background-color: #592EA9;
+}
+.contact-wrapper div{
+    height: 10rem;
+    width: 50%;
+}
+.contact-wrapper div h4{
+    font-weight: lighter;
+    font-size: 0.9rem;
+    color: rgb(196, 189, 189);
+}
+.contact-wrapper div:first-child h2{
+    padding: 1rem;
+    text-transform: capitalize;
+    width: 65%;
+}
+.contact-wrapper div:first-child h4{
+    padding: 0.5rem;
+}
+.contact-wrapper div:first-child p{
+    padding: 0.5rem;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid rgb(217, 211, 211);
+    margin-left: 3%;
+}
+.contact-wrapper div:last-child p{
+    padding: 0.5rem;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid rgb(217, 211, 211);
+    margin-left: 3%; 
+}
+.contact-wrapper div:last-child h2{
+     padding: 1rem;
+    text-transform: capitalize;
+    width: 65%;
+}
+.contact-wrapper div:last-child h4{
+    padding: 0.4rem;
+}
+.contact-form{
+    width: 50%;
+    display: block;
+    margin:2% auto;
+}
+/* for the privacy page */
+.txt-container{
+    text-align: center;
+    height: 11rem;
+    padding: 2.2rem;
+    background-color: #F4F0F8;
+}
+.txt-container h2,p{
+    padding: 1rem;
+}
+.txt-container h2{
+    font-size: 2.5rem;
+}
+.txt-container p{
+    font-size: 0.8rem;
+}
+.privacy-text-wrapper{
+    width: 50%;
+    margin:4% auto;
+    padding:0.5rem;
+}
+.privacy-text-wrapper h2{
+    padding: 0.5rem;
+}
+/* for styling the alert-container */
+.alert-wrapper{
+    width: 30%;
+    position: fixed;
+    top:0%;
+    left: 34%;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    color: rgb(11, 167, 11);
+    text-align: center;
+    z-index: 6;
+    line-height: 2rem;
+    background-color:#0f1120;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: all ease 2s;
+    transform: translateY(-110%);
+    padding: 1.5rem;
+}
+.alert-wrapper button{
+    padding: 0.5rem;
+    margin-top: 3%;
+    font-size: 1rem;
+    text-transform: capitalize;
+    /* border: 1px solid rgb(246, 246, 246); */
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+    transition: all ease 0.8s;
+    border-radius: 1rem;
+}
+.alert-wrapper button:active{
+    transform: scale(0.9);
+}
+
+.show{
+    transform: translateY(0%);
+}
+.hide{
+    transform: translateY(-110%);
+}

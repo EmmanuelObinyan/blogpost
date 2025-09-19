@@ -1,0 +1,32 @@
+.article-container{
+    width: 25%;
+    display: inline-block;
+    margin-left: 6%;
+    margin-bottom: 4%;
+    padding: 0.5rem;
+}
+.article-container h2{
+    padding: 0.2rem;
+    line-height: 2.1rem;
+    margin-bottom: 2%;
+}
+.article-container h4 span{
+    color: purple;
+    padding: 0.2rem;
+    font-weight: bold;
+    margin-right: 1%;
+text-transform: capitalize;
+}
+.article-container h4{
+    padding: 0.2rem;
+    text-transform: capitalize;
+}
+.article-container p{
+    color: rgb(40, 40, 40);
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+.article-container img{
+    width: 100%;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,33 @@
+.story-container{
+    margin-top: 5%;
+    width: 60%;
+    margin-left: 12%;
+    position: relative;
+}
+.story-container img{
+    width: 100%;
+}
+.story-post-wrapper{
+    height: auto;
+    position: absolute;
+    background-color: white;
+    right: 13rem;
+    margin-top: -21.5rem;
+    padding: 1.1rem;
+    width: 30%;
+}
+.story-post-wrapper h5{
+    padding: 1rem;
+}
+.story-post-wrapper h2{
+    font-size: 1.8rem;
+    width: 80%;
+    padding: 0.5rem;
+}
+.story-post-wrapper p{
+    font-size: 0.8rem;
+    width: 90%;
+    padding-bottom: 0.3rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+}

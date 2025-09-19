@@ -1,0 +1,61 @@
+.color-container{
+    background-color:#ffd050  ;
+    height: 1rem;
+    width: 60%;
+    border: none;
+    display: flex;
+    margin-left: 20%;
+    justify-content: flex-end;
+    justify-self: center;
+}
+.mission-container{
+    display: flex;
+    padding: 1rem;
+    background-color:#F4F0F8;
+    width: 80%;
+    border: none;
+    justify-self: center;
+    flex-direction:row;
+}
+.mission-container h2,h3{
+    color: rgb(30, 29, 29);
+}
+.mission-post-container,.about-post-container{
+    width: 50%;
+    padding: 1rem;
+}
+.about-post-container h2{
+    width: 75%;
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    line-height: 2rem;
+}
+.about-post-container h3,.mission-post-container h3{
+    padding-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+.about-post-container p{
+    padding: 1rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+.mission-post-container h2{
+    padding: 1rem;
+    width: 70%;
+}
+.mission-post-container p{
+    width: 95%;
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+.mission-background{
+    width: 35%;
+    color: blueviolet;
+    font-weight: 600;
+}
+.color-container button{
+    width: 30%;
+    border: none;
+    background-color: blueviolet;
+}

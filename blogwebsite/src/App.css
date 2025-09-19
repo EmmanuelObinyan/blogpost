@@ -1,0 +1,96 @@
+.first-container{
+    display: flex;
+    width: 80%;
+    background-color: white;
+    justify-self: center;
+}
+.f-container{
+    font-size: 2rem;
+    width: 48%;
+    z-index: 1;
+    background-color: white;
+    padding: 2.2rem;
+    text-transform: capitalize;
+}
+.s-container{
+    width: 50%;
+    height: 14rem;
+}
+.s-container p{
+    text-align: left;
+    width: 75%;
+    margin-top: 16%;
+    color: rgb(44, 43, 43);
+}
+.f-container h4{
+    padding-left: 1rem;
+   color: rgb(46, 45, 45);
+}
+.f-container h2{
+    padding: 1rem;
+}
+.image-container{
+    width: 90%;
+    display:flex;
+    background: url("./assets/storyimage.png");
+    justify-self: center;
+    margin-top:-3%;
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    height: 25rem;
+    padding-bottom: 4%;
+    position: relative;
+}
+.content-wrapper{
+   bottom: 0;
+   width: 65%;
+   left: 5%;
+   position: absolute;
+}
+.position-classname{
+    justify-self: flex-start;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-left: 0;
+}
+.figure-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:60%;
+    background-color: #FFD050;
+    height: 10rem;
+}
+/* other class name */
+.mission-wrapper{
+    width: 90%;
+}
+.author-class{
+    width: 86%;
+}
+.card-class{
+    margin-right: 2%;
+    width: 23%;
+    height: 13rem;
+    margin-bottom: 2%;
+}
+.card-class img{
+    height: 6rem;
+    margin-top: 0;
+    object-fit: cover;
+    width:35%;
+}
+
+.figure-wrapper figure{
+    padding: 0.4rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.figure-wrapper figure h2{
+    padding: 0.5rem;
+    margin-top: 18%;
+}
+.figure-wrapper figure p{
+    font-size: 0.9rem;
+}

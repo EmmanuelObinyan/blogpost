@@ -1,0 +1,9 @@
+calculate volume of cylinder
+volume=piiR^2H
+  H=input("enter your height")
+   raidus=input("enter the radius")
+  radius=float(radius)
+  pii=22/7
+  R=radius*radius
+vol=pii*R*H
+print("the volume is :",(vol))

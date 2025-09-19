@@ -1,0 +1,87 @@
+.testimony-container{
+    width:80%;
+    display: flex;
+    height: auto;
+    padding: 1.5rem 1rem;
+    border: none;
+    background-color: #FBF6EA;
+    margin: 1% auto;
+}
+.profile-post-wrapper,.test-post-wrapper{
+    width: 50%;
+    border: none;
+}
+.test-post-wrapper{
+    border-left: 1px solid rgb(233, 223, 223);
+}
+.profile-post-wrapper{
+    padding-bottom: 1.2rem;
+}
+.test-post-wrapper h5{
+    text-transform: capitalize;
+    padding-top: 1rem;
+    margin-left: 5%;
+}
+.test-post-wrapper h2{
+    font-size: 2rem;
+    padding: 0.3rem;
+    margin-left: 5%;
+    width: 40%;
+}
+.test-post-wrapper p{
+    width:65%;
+    padding: 0.3rem;
+    font-weight: 300;
+    margin-left: 5%;
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+}
+.profile-post-wrapper h3{
+    width: 59%;
+    line-height: 1.5rem;
+    margin-left: 7%;
+    margin-top: 4%;
+    font-size: 1.1rem;
+    margin-bottom: 12%;
+}
+.profile-post{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7%;
+}
+.profile-post p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+aside h4{
+    font-size: 1rem;
+    padding-bottom: 0.1rem;
+}
+.profile-post img{
+    height: 2rem;
+    width: 20%;
+    object-fit: cover;
+    border-radius:5rem;
+}
+.name-container{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.name-container button{
+    width: 12%;
+    justify-content: space-between;
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.icon-left{
+    font-size: 1.5rem;
+}
+.icon-right{
+    font-size: 2rem;
+}

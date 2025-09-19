@@ -1,0 +1,73 @@
+.profile-container{
+    width: 29%;
+    margin-left: 0;
+    padding: 0.3rem;
+}
+.profile-container img{
+   height: 1.8rem;
+   margin-left: 0%;
+   width: 15%;
+   object-fit: cover;
+}
+.profile-container h4{
+    color: purple;
+    text-transform: capitalize;
+}
+.general-container{
+    width: 85%;
+    margin: 6% auto;
+}
+.blogpost-wrapper{
+    margin: 2rem auto;
+    width: 50%;
+}
+.blogpost-wrapper h1{
+    width: 60%;
+    margin-bottom: 1%;
+    padding: 0.5rem;
+}
+.rocket-text{
+    display: inline;
+    vertical-align: top;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.blogpost-wrapper img{
+    padding: 0.2rem;
+    margin-right: 1%;
+    margin-top: 0;
+}
+
+.blogpost-wrapper-text img{
+    width: 85%;
+    height: 35rem;
+    object-fit: cover;
+    margin:auto;
+    display: block;
+}
+.blogpost-wrapper-text h3,p{
+    margin: auto;
+}
+.blogpost-wrapper-text h3{
+    width: 60%;
+    font-weight: 600;
+    margin-top: 3%;
+    font-size: 1.9rem;
+}
+.blogpost-wrapper-text p{
+    width: 60%;
+    padding: 0.5rem;
+    margin-top: 1%;
+    color: rgb(46, 44, 44);
+    font-weight: lighter;
+}
+.blogpost-wrapper-text ul{
+    width: 55%;
+    margin:2% auto;
+}
+.blogpost-wrapper-text ul li{
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding: 0.3rem;
+}

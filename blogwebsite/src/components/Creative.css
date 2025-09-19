@@ -1,0 +1,72 @@
+.creative-container{
+    display: flex;
+    margin-top: 2%;
+    background-color: white;
+    margin-bottom: 2%;
+     width: 90%;
+     height: 25rem;
+     position: relative;
+    justify-self: center;
+}
+.shape-maker,.circle-maker{
+  position: absolute;
+}
+.shape-maker{
+    right: 46%;
+    top: 20%;
+    border-top-left-radius: 1rem;
+    height: 6rem;
+    background-color: #FFD050;
+    border: none;
+    width: 6%;
+}
+.circle-maker{
+    border: none;
+    bottom: -9%;
+    background-color:#592EA9;
+    left: 6%;
+    height: 5rem;
+    width: 6%;
+    border-radius: 3rem;
+}
+.f-wrapper{
+    padding: 1rem;
+    width: 45%;
+}
+/* for the class added in about page */
+.wrapper{
+    width: 85%;
+    margin-left: -5%;
+    flex-direction: row-reverse;
+}
+.wrapper div:last-child{
+    justify-content: flex-start;
+}
+.wrapper div:last-child img{
+    width: 90%;
+}
+/* the end */
+.f-wrapper h3{
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-top: 8%;
+}
+.f-wrapper h4{
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+.f-wrapper p{
+    padding: 0.7rem;
+    margin-left: 1%;
+}
+.fs-wrapper{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    height: 25rem;
+}
+.fs-wrapper img{
+    object-fit: cover;
+    width: 85%;
+    height: 25rem;
+}

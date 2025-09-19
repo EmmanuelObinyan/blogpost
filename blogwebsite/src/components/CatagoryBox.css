@@ -1,0 +1,149 @@
+.box-container{
+    width: 23%;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    height: 11rem;
+    border: 1px solid rgb(239, 230, 230);
+}
+.box-container:hover{
+    background-color: rgb(242, 184, 77);
+}
+.box-container:active{
+    transform: scale(0.9);
+}
+.link{
+    text-decoration: none;
+}
+.box-container p{
+   width: 85%;
+   color: rgb(46, 45, 45);
+   padding: 0.5rem;
+}
+.box-container h3{
+    padding: 0.5rem;
+    width: 60%;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.box-container button{
+    width: 15%;
+    height: auto;
+    padding: 0.2rem;
+    border: none;
+}
+/* for category page */
+.text-container{
+    background-color: #F4F0F8;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-wrapper{
+    width: 30%;
+    text-align: center;
+}
+.text-wrapper h2{
+    padding: 1rem;
+    font-size: 2rem;
+}
+.text-wrapper p{
+color: grey;
+padding: 0.5rem;
+font-size: 0.9rem;
+}
+.text-wrapper h4{
+    padding: 1rem;
+    font-weight:240;
+}
+.cgy-container{
+    display:flex;
+    width: 90%;
+    height: auto;
+    justify-content: space-between;
+    justify-self: center;
+}
+.f-wrapper{
+    width:fit-content;
+}
+.s-wrapper{
+    width: 25%;
+}
+.s-wrapper p{
+    padding: 0.5rem;
+    text-transform: capitalize;
+     font-size: 1.5rem;
+     font-weight: 600;
+}
+.s-wrapper h4{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    text-transform: capitalize;
+}
+.tag-wrapper{
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+}
+/* for the component categoryitem */
+.bx-container{
+    display: flex;
+    border: none;
+    box-shadow: 0 0 10px rgb(211, 203, 203);
+    border: 1px solid rgb(223, 217, 217);
+    margin: 3%;
+    height: 4rem;
+    width: 55%;
+    padding: 1rem;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    align-items: center;
+    cursor: pointer;
+    transition: all ease 0.9s;
+}
+.bx-container:hover{
+    background-color: #F4F054;
+}
+.bx-container:active{
+    background-color: #F4F054;
+}
+.bx-container button{
+    padding: 0.2rem;
+    border: none;
+    margin-right: 4%;
+}
+.tag-container button{
+    padding: 1rem;
+    margin: 2%;
+    border: none;
+    border: 1px solid rgb(206, 203, 203);
+    border-radius: 1rem;
+    height: 3rem;
+    background-color: white;
+    font-weight: 500;
+}
+/* props class tag_class */
+.tag-style button{
+    margin-left: 6%;
+    width: 7rem;
+    margin-bottom: 2%;
+    height: 1rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+}
+.tech-class button{
+    width: 8rem;
+    height:2.8rem;
+    margin-top: 6%;
+}
+.screen-class{
+    margin-top: 3%;
+}
+.post-style{
+    width:60rem;
+    margin-bottom: 6%;
+}

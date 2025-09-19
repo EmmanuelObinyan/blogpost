@@ -1,0 +1,12 @@
+.logo-container{
+    display:flex;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    height: auto;
+    width: 85%;
+    justify-content: space-around;
+    justify-self: center;
+}
+.logo-container img{
+    height: 2rem;
+}
